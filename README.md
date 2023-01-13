@@ -1,2 +1,3 @@
 # mysite
-My Website https://yogeshv.com
+This repository holds the source code for my website https://yogeshv.com
+
