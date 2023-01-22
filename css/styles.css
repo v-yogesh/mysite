@@ -1,7 +1,72 @@
 body {
-    font-family: 'Lora', serif;
-    font-size: medium;
-    font-weight:100;
+    
+    margin: 0px;
+    font-family: 'Exo', sans-serif;
+    background-color: azure;
+    
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height:80px;
+    padding-right: 20px;
+    background-color:rgb(179, 230, 213);
+    
 
 }
 
+nav ul{
+    list-style: none;
+    float: right;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 5px;
+}
+
+a{
+    text-decoration: none;
+}
+nav ul li a{
+    /* color: white; */
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/* 
+p{
+    
+    padding: 10px;
+    margin: 10px; 
+} */
+
+.nav ul{
+    list-style-type:square;
+
+}
+
+.nav ul li{
+    display: inline;
+}
+
+
+#footer{
+
+    background-color: green;
+    display: flex;
+    
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    overflow:hidden;
+}
+
+#footer col li
+{
+    list-style: none;
+}
